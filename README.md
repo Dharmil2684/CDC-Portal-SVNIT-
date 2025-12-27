@@ -25,7 +25,7 @@ Before running the project locally, make sure you have the following installed:
 
 ### 1. Clone the Repository
 
-git clone https://github.com/Neem-Sheth/CDC-Portal.git
+git clone https://github.com/Dharmil2684/CDC-Portal-SVNIT-
 cd CDC-Portal
 
 ### 2. Install Dependencies
