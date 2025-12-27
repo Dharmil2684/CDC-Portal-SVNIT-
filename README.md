@@ -25,23 +25,31 @@ Before running the project locally, make sure you have the following installed:
 
 ### 1. Clone the Repository
 
+```bash
 git clone https://github.com/Dharmil2684/CDC-Portal-SVNIT-
 cd CDC-Portal
+```
 
 ### 2. Install Dependencies
 
+```
 npm install
+```
 
 ### 3. Add a .env File
 
 Create a .env file in the root directory and configure:
 
+```
 PORT=3000
 MONGODB_URI=your_mongodb_connection_string
+```
 
 ### 4. Run the Application
 
+```
 npm run dev
+```
 
 ### 5. Access the Application
 
@@ -51,6 +59,7 @@ npm run dev
 
 ## 📁 Project Structure
 
+```
 .
 ├── components/       # Reusable React UI components
 ├── lib/              # Core logic and helper functions
@@ -63,15 +72,17 @@ npm run dev
 ├── next.config.js    # Next.js configuration
 ├── tailwind.config.js # Tailwind CSS configuration
 └── package.json      # Dependencies and scripts
+```
 
 ---
 
 ## 🎬 Available Scripts
 
-- npm run dev ➡️ Start the development server. ⚡
-- npm run build ➡️ Build the production app. 🚀
-- npm run start ➡️ Start the production server. 💻
+Here are the commands to run inside the project directory:
 
+- `npm run dev` ➡️ Start the development server. ⚡
+- `npm run build` ➡️ Build the production-ready app. 🚀
+- `npm run start` ➡️ Start the production server. 💻
 ---
 
 ## 🌐 Deployment
@@ -87,10 +98,27 @@ The easiest way to deploy your Next.js app is to use the Vercel Platform:
 
 ## 🤝 Contributing
 
+We welcome contributions! Here’s how you can contribute to this project:
+
 1. Fork this repository.
-2. Create a new branch: git checkout -b feature-name
-3. Commit changes: git commit -m "Add feature"
-4. Push to your branch: git push origin feature-name
+2. Create a new branch for your feature/bugfix: 
+
+   ```bash
+   git checkout -b feature-name
+   ```
+
+3. Commit your changes: 
+
+   ```bash
+   git commit -m "Add feature"
+   ```
+
+4. Push to your branch:
+
+   ```bash
+   git push origin feature-name
+   ```
+
 5. Submit a pull request.
 
 ---
